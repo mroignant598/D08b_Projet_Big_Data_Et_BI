@@ -62,5 +62,5 @@ Rappel de lancement Hadoop :
 
 ./start-hadoop.sh
 start-hbase.sh
-hbase thrift start
+./service_hbase_thrift.sh
 ./hbase_odbc_rest.sh
