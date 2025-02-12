@@ -48,4 +48,4 @@ df = pd.DataFrame(data, columns=["codcde", "ville", "somme_quantite", "somme_tim
 df_trie = df.sort_values(by=['somme_quantite', 'somme_timbrecde'], ascending=[False, False]).head(100)
 
 # Exportation des résultats tries dans un fichier Excel
-df_trie.to_excel("Resultats_lot1.xlsx")
+df_trie.to_excel("/datavolume1/Resultats_lot1.xlsx")
