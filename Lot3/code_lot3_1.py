@@ -50,7 +50,7 @@ df_nantes = pd.DataFrame(nantes_commande, columns=["ID_commande", "Somme_quantit
 df_nantes_tri = df_nantes.sort_values(by=['Somme_quantite', 'Somme_timbrecde'], ascending=[False, False]).head(1)
 
 # Export du fichier au format csv
-df_nantes_tri.to_csv('/datavolume1/meilleure_commande_Nantes_en_2000.csv', index=False)
+df_nantes_tri.to_csv('/datavolume1/meilleure_commande_Nantes_en_2020.csv', index=False)
 
 # Fermeture de la connexion                
 connection.close()

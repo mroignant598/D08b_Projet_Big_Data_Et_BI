@@ -20,7 +20,7 @@ for word in csv_reader :
     except ValueError:
         continue
     
-    # tri des annees et les departements pour avoir les informations entre 2006 et 2010 sur les departements 28, 53 et 61    
+       
     if 2006 <= annee <= 2010:
         if departement in ['28', '53', '61']:
             print("%s;%s;%s;%s;%s;%s" % (codcde, ville, departement, datcde, timbrecde, qte)) 
